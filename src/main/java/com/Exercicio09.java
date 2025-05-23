@@ -12,7 +12,7 @@ public class Exercicio09 {
         System.out.println("Digite o valor de c");
         double c = scanner.nextDouble();
 
-        double resultado = ((b * b) - 4 * a * c) / (2 * a);
+        double resultado = ((b * b) - (4 * a * c)) / (2 * a);
         System.out.println("O resultado da formula é: " + resultado);
     }
 }
