@@ -15,7 +15,60 @@ public class Exercicios07 {
         int multiplicacao = primeiroNumero * segundoNumero;
         double divisao = primeiroNumero / (double)segundoNumero;
 
-        System.out.println("Soma: " + soma + "subtração:" + subtracao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        System.out.println("Soma: " + soma + "Subtração:" + subtracao
         + "Multiplicação: " + multiplicacao + "Divisão:" + divisao);
+
     }
 }
