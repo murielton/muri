@@ -11,20 +11,16 @@ public class Main {
 
         //construir um objeto conta
 
-        Cliente cliente = new Cliente();
+      Funcionario funcionario = new Funcionario();
         System.out.println("Nome");
-        cliente.setNome(scanner.next());
-        System.out.println("Cpf");
-        cliente.setCpf(scanner.next());
-        System.out.println("Telefone");
-        cliente.setTelefone(scanner.next());
-        System.out.println("DataNascimento");
-        cliente.setDataNascimento(scanner.next());
-        System.out.println("Email");
-        cliente.setEmail(scanner.next());
-        System.out.println("Senha");
-        cliente.setSenha(scanner.next());
-        System.out.println(cliente.toString());
+      funcionario.setNome(scanner.next());
+        System.out.println("Matricula");
+        funcionario.setMatricula(scanner.next());
+        System.out.println("Turno");
+       funcionario.setTurno(scanner.next());
+        System.out.println("SalarioBase");
+        funcionario.setSalarioBase(scanner.nextDouble());
+        System.out.println("salario final "+funcionario.getSalarioFinal());
 
 //        //criar uma conta2
 //        //pedir para o usuario digitar os dados
