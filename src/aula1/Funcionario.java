@@ -42,7 +42,7 @@ public class Funcionario {
         this.salarioBase = salarioBase;
     }
 
-
+//parara
     public void getDados() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nome: " + this.nome);
